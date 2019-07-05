@@ -1,0 +1,37 @@
+/*For Background*/
+.background{
+    background-image: url(Images/Airplane_Background.jpg);
+    height: 810px;
+    width: 640x;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*For the logo*/
+.background img{
+    position: absolute;
+    align-content: left;
+    padding-top: 20px;
+    z-index: 0;
+    width: 170px;
+    float: left;
+
+}
+/*Title Head*/
+.background h1{
+   padding-top: 20px;
+   font-family: Brush Script MT, Brush Script Std, cursive;
+   text-align: center;
+   top: 70px;
+}
+/*Login Button*/
+.login_btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}

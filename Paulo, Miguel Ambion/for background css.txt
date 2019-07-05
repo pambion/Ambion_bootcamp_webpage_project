@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    }
+/* For background */
+body{
+    background-image: url(Images/Airplane_Background.jpg);
+    background-position: center;
+    Background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-fixed-top{
+    background-image: url(Images/Airplane.jpg);
+    background-position: center;
+    height: 100px;
+}
+.Menu{
+    height: 50px;
+    width: 70px;
+}

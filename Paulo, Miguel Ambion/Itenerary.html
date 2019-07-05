@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Itenerary_style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large"
+            onclick="w3_close()">Close &times;</button>
+            
+            <div>
+                <br><br><img src="Images/585e4ad1cb11b227491c3391.png" alt="" class="inp-icons">
+              <button button onclick="window.location='Search_Flight.html'" class="menuname">Search Flights</button>
+            </div>
+
+            <div>
+                <br><br><img src="Images/Itenerary_icon.png" alt="" class="inp-icons">
+              <button button onclick="window.location='Itenerary.html'" class="menuname">Air Itenerary</button>
+            </div>
+
+            <div>
+                <br><br><img src="Images/Power_Icon.png" alt="" class="inp-icons">
+              <button button onclick="window.location='Booking_Project_V3.html'" class="menuname">Log Out</button>
+            </div>
+           
+            
+          </div>
+
+
+        <script>
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+            }
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+            }
+            </script>
+        <title>Flight Booking</title>
+    </head>
+
+            
+    <body>
+        
+          <nav class="navbar-fixed-top"> 
+              <button class="w3-button w3-xxlarge" onclick="w3_open()">&#9776;</button>
+              <div class="w3-container"></div>
+          </nav>
+            <div class="container-fluid" >
+            </div>
+           
+          <h1 class="selected-flight-title">Air Itenerary Details</h1>
+        
+
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                      <center><label for="sel1" class="TagName2">Manila - Japan</label></center><br>
+                  <center><label class="TagName">
+                      <br><p>Date: (TH) Jun 06 2019</p>
+                      <p>Terminal: 2</p>
+                      <p>Aircraft: Airbus A321 -231</p>
+                      <p>Departs: 06:40 MNL</p>
+                      <p>Arrives: 12:10</p>
+                      <p>Duration: 4h 30m</p>
+                    </label></center>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-1"></div>
+                        <div class="col-5"><label class="TagName3">P 1,234.56</label></div>
+                    </div><br><br>
+                     
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                                <div class="form-group"> 
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                       <button onclick="window.location='Search_Flight.html'" class="exit-button" >Exit</button>
+                                        </div>
+                                      </div> 
+                        </div>
+                        <div class="col-3"></label></div>
+
+
+                    </div><br>
+                       
+                      </div>
+                    <div class="col-md-4"></div>
+              </div>
+              
+
+
+
+    </body>
+</html>

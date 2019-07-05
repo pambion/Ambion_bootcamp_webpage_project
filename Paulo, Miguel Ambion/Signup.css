@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    }
+/* For background */
+body{
+    /* background-image: url(Images/Airplane_Background.jpg); */
+    background-color:#b3e6ff;
+    background-position: center;
+    Background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-fixed-top{
+    background-image: url(Images/Airplane.jpg);
+    background-position: center;
+    height: 100px;
+}
+.Menu{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+.One_Way{
+    margin-left: 50px;   
+}
+.Table-title{
+    background-color: #b3c6ff;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 380px){
+    .navbar-fixed-top{
+        background: #CDCDCD;
+        display: block;
+    }} 
+.TagName{
+    font-weight: bold;
+    text-align: left;
+    background: #b3c6ff;
+    font-size: 15px;
+    width: 60%;
+    height: 30px;
+    border: 1px solid #000000;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    /* box-shadow: 5px 5px 5px 5px #52527a; */
+}
+.TagName2{
+        font-weight: bold;
+        text-align: center;
+        background: #b3c6ff;
+        font-size: 15px;
+        width: 150px;
+        border: 1px solid #000000;
+        padding: 5px;
+        margin-bottom: 5px;
+}
+.Text_box_origin{
+   margin:0;
+   padding:0;
+}
+.input-group-text{
+    background-image: url(Images/Magnefiying_Glass.png);
+    background-position: center;
+    background-size: contain;
+    Background-repeat: no-repeat;
+}
+.form{
+    padding:0;
+}
+.submit_button{
+    width: 200px;
+    padding: 8px 0;
+    outline: none !important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:  #52527a;
+    color: #fff;
+
+}

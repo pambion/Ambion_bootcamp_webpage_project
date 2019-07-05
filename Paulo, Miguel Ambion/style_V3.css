@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    }
+body, html{
+    height: 100%
+}
+/* For background */
+body{
+    background-image: url(Images/Airplane_Background.jpg);
+    background-position: center;
+    Background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* For the logo */
+.airpacific-logo{
+    width: 170px;
+}
+/*Title Head*/
+.title{
+   font-size: 50px;
+   padding-top: 0px;
+   font-family: Brush Script MT, Brush Script Std, cursive;
+   left: 45%;
+   position: absolute;
+}
+/*Login Button*/
+.submit_button{
+    width: 200px;
+    padding: 8px 0;
+    outline: none !important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:  #52527a;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px  #52527a;
+
+}
+/*Header bar*/
+.header li{
+    list-style: none;
+}
+.header li a{
+    text-decoration: none;
+}
+.header{
+   width: 100%;
+   height: 150px;
+   background-color: #9CBAF3; 
+}
+.AP-circle{
+    margin: 1px auto;
+    border-radius: 50%;
+    background-color: #fff;
+
+  
+}
+.profile-img{
+    padding: 5px;
+    width: 200px;
+    background: #FFF;
+    border-radius: 50%;
+}
+.login-form{
+
+}
+
+.inp-icons{
+    width:50px;
+}
+.navbar{
+    background-color: #8080ff;
+}
+.Login_Page{
+    width: 100%;
+    border-left: 5px;
+    border-right: 5px;
+}
+.Username_Icon{
+    background-image: url(Images/)
+}
+.checkbox{
+    font-size: 15px;
+    
+}
+.Signup_button{
+    width: 150px;
+    padding: 8px 0;
+    outline: none !important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:  #52527a;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px  #52527a;
+}
+.inp-icons{
+    box-shadow: 5px 5px 5px 5px #52527a;
+}
+.ForgetPass{
+  padding-left: 55%;
+}
+@media only screen and (max-width: 380px){
+    .navbar-fixed-top{
+        background: #CDCDCD;
+        display: block;
+    }} 

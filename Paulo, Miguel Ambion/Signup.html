@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Signup.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+        
+        <title>Flight Booking</title>
+    </head>
+
+            
+    <body>
+
+        <nav class="navbar-inverse navbar-fixed-top">
+          <!-- <a href=""><img src="Images/hamburger-icon.png" alt="air-pacific" class="Menu"></a> -->
+        </nav>
+        
+        <div class="container-fluid">
+           <h1 class="title">Sign Up</h1>
+        </div>
+        
+        <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                        <div class="form">
+                                                               
+                                        <div class="form-group">
+                                                <div>
+                                                    <label for="sel1" class="TagName">Name:</label>
+                                                </div>
+                                                <div>
+                                                    <input type="text" class="form-control" id="email" placeholder="Enter your Complete Name">
+                                                </div><br>
+
+                                                <label for="sel1" class="TagName">Gender</label>
+                                                <select class="form-control" id="sel1">
+                                                        <option value="Female">Female</option>
+                                                        <option value="Male">Male</option>
+                                                </select><br>
+
+                                                <form action="/action_page.php">
+                                                    <label for="sel1" class="TagName">Date of Birth</label><br>
+                                                        <input type="date" name="bday">
+
+                                                <div>
+                                                        <br><label for="sel1" class="TagName">Address:</label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="text" class="form-control" id="email" placeholder="Enter your Complete Address">
+                                                    </div><br>
+
+                                                    <div>
+                                                    <label for="sel1" class="TagName">Email Address</label>
+                                                </div>
+                                                <div>
+                                                    <input type="text" class="form-control" id="email" placeholder="Enter your Email Address">
+                                                </div><br>
+
+                                                <div>
+                                                        <label for="sel1" class="TagName">Phone Number</label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="text" class="form-control" id="email" placeholder="Enter your Phone Number">
+                                                    </div>
+                                            
+                                                    <div><label for="sel1" class="TagName">Enter Password</label></div>
+                                                    <div><input type="text" class="form-control" id="Password" placeholder="Enter password"></div>
+                                                    <div><input type="text" class="form-control" id="Password" placeholder="Confirm password"></div>              
+                                                </form>
+
+                                            <div class="col-2"></div>
+                                            <div class="col-5"></div>
+
+                                            
+                                <br><br>
+                                <div class="container">
+                                      
+                                        <!-- Button to Open the Modal -->
+                                        <div><center><button type="button" class="submit_button" data-toggle="modal" data-target="#myModal">Sign In</button></center></div>
+                                      
+                                        <!-- The Modal -->
+                                        <div class="modal fade" id="myModal">
+                                          <div class="modal-dialog">
+                                            <div class="modal-content">
+                                            
+                                              <!-- Modal Header -->
+                                              <div class="modal-header">
+                                                <h4 class="modal-title">Sign Up Successful!</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                              </div>
+                                              
+                                              <!-- Modal body -->
+                                              <div class="modal-body">
+                                              Do you want to Proceed?
+                                              </div>
+                                              
+                                              <!-- Modal footer -->
+                                              <div class="modal-footer">
+                                                <button type="button" onclick="window.location='Search_Flight.html'" class="submit_button" data-dismiss="modal">Proceed</button>
+                                                <button type="button" onclick="window.location='Booking_Project_V3.html'" class="submit_button" data-dismiss="modal">Cancel</button>
+                                              </div>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                               
+                            </div>
+                            
+                </div>
+                <div class="col-sm-4"></div>
+              </div>
+
+
+
+
+
+        
+    </body>
+</html>

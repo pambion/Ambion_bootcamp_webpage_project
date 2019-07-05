@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    }
+/* For background */
+body{
+    background-position: center;
+    background-color:#b3e6ff;
+    Background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-fixed-top{
+    background-image: url(Images/Airplane.jpg);
+    background-position: center;
+    height: 100px;
+}
+/* .Menu{
+    
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+} */
+.title{
+    font-weight: bold;
+    text-shadow: 5px #52527a;
+}
+.TagName4{
+    text-align: left;
+    padding-left:5px;
+    background: #b3c6ff;
+    font-size: 17px;
+    font-weight: bold;
+    width: 75%;
+    height: 30px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px 2px  #52527a;
+}
+.Select-Option{
+    text-align: center;
+    background: #fff;
+    font-size: 17px;
+    width: 80%;
+    height: 30px;
+    border: 1px solid #000000;
+
+}
+.TagName p{
+    line-height: 0px;
+}
+
+@media only screen and (max-width: 380px){
+    .navbar-fixed-top{
+        background: #CDCDCD;
+        display: block;
+    }} 
+.selected-flight-title{
+    padding-left: 10px;
+}
+.cancel-button{
+    width: 150px;
+    padding: 8px 0;
+    outline: none !important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:  #52527a;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px  #52527a;
+}
+.book-button{
+    width: 200px;
+    padding: 8px 0;
+    outline: none !important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:  #52527a;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px  #52527a;
+
+}
+.form-control
+{
+    margin-top: 10px;
+    padding: none;
+}
+.cancel-button{
+    width: 150px;
+    padding: 8px 0;
+    outline: none !important;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:  #52527a;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px  #52527a;
+}

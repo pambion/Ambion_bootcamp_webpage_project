@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Payment.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        
+        <title>Flight Booking</title>
+    </head>
+
+            
+    <body>
+        
+      
+
+          <nav class="navbar-fixed-top"> 
+             <b><h1 class="title">Mode of Payment</h1></b>
+          </nav>
+            <div class="container-fluid" >
+            </div>
+           
+          <h1 class="selected-flight-title">Selected Flight</h1>
+        
+
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                      <center><label for="sel1" class="TagName2">MNL - JPN</label></center>
+                  <center><label class="TagName">
+                      <br><p>Date: (TH) Jun 06 2019</p>
+                      <p>Departs: 06:40 MNL</p>
+                      <p>Arrives: 12:10</p>
+                    </label></center>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-1"></div>
+                        <div class="col-5"><label class="TagName3">P 1,234.56</label></div>
+                    </div><br><br>
+                     
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10">
+                            <form>
+                                <label for="sel1" class="TagName4">Mode of Payment</label><br>
+                                <select>
+                                        <option value="Visa">Visa</option>
+                                        <option value="Master Card">Master Card</option>
+                                </select><br><br>
+                                
+                                <label for="sel1" class="TagName4">Enter Account Number</label><br>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter Account Number">
+                            </form>
+                        </div>
+                        <div class="col-1"></label></div>
+
+
+                    </div><br><br>
+                          <div class="container">
+                              <div class="form-group"> 
+                                <div class="col-sm-offset-2 col-sm-10">
+                                  <!-- Button to Open the Modal -->
+                                  <center><button type="button" class="book-button" data-toggle="modal" data-target="#myModal">Book Flight</button></center>
+                          
+                                  <!-- The Modal -->
+                                    <div class="modal fade" id="myModal">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                              <h4 class="modal-title">Confirmation</h4>
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                  
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                              Do you want to book the Flight?
+                                            </div>
+                                            
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                  <div class="container">
+                                                    <!-- Button to Open the Modal -->
+
+                                                    <button type="button" onclick="window.location='Itenerary.html'" class="book-button" data-toggle="modal" data-target="#myModal">Okay</button>
+                                                    <button type="button" class="book-button" data-dismiss="modal">Close</button>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <!-- For cancel Button -->
+                          <div class="form-group"> 
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <center><button onclick="window.location='Flight_List.html'" class="cancel-button" href="">Cancel</button></center>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4"></div>
+              </div>
+              
+             
+
+
+    </body>
+</html>
